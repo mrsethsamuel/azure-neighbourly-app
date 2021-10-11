@@ -1,5 +1,5 @@
 {
-    "azureFunctions.deploySubpath": ".",
+    "azureFunctions.deploySubpath": "NeighborlyAPI",
     "azureFunctions.scmDoBuildDuringDeployment": true,
     "azureFunctions.pythonVenv": ".venv",
     "azureFunctions.projectLanguage": "Python",
@@ -36,6 +36,6 @@
         "venv.bak{,/**}",
         ".vscode{,/**}"
     ],
-    "appService.defaultWebAppToDeploy": "/subscriptions/bc8b2b23-8c94-4248-a572-8b50f2f81d87/resourceGroups/cloud-demo/providers/Microsoft.Web/sites/demop-frontend",
-    "appService.deploySubpath": "NeighborlyFrontEnd"
+    "appService.deploySubpath": "NeighborlyFrontEnd",
+    "appService.defaultWebAppToDeploy": "/subscriptions/055225e5-24c2-4b9b-bd53-954939e76965/resourceGroups/x-rg/providers/Microsoft.Web/sites/x-front"
 }
